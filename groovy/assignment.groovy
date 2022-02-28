@@ -58,4 +58,9 @@ print l1.any{element -> element = ele}
 
 // Question 9
 
+def file1 = new File("/home/rxlogix/Desktop/BootCamp-Assignments/groovy/test1.txt")
+def file2 = new File("/home/rxlogix/Desktop/BootCamp-Assignments/groovy/test2.txt")
+def file3 = new File("/home/rxlogix/Desktop/BootCamp-Assignments/groovy/test_combined.txt")
 
+file 3 << file1.text;
+file 3 << file2.text;
