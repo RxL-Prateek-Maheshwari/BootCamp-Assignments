@@ -7,3 +7,10 @@
 5) equals and =
 6) groupby
 7) collect vs each
+
+
+
+=> TOkenizer vs split
+- tokenizer returns list , split returns string
+- tokenizer ignores empty list , split does not.
+- tokenizer cannot use regex as delimiter, split can.
