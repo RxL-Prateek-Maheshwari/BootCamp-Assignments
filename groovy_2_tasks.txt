@@ -1,0 +1,9 @@
+// Read about these ->  
+
+1) Explore the underlining Data Structures of different collections.
+2) read more about max,min,closure
+3) SpaceShip Operator(<=>)
+4) spread operator (used a lot in previous versions but now , . and *. has the same functionality)
+5) equals and =
+6) groupby
+7) collect vs each
