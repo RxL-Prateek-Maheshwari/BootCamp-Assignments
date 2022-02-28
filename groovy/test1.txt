@@ -1,1 +1,4 @@
-This is test 1 file.
+This is test 1 file.    
+Line 2
+Line not 4.
+Last Line.
