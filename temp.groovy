@@ -55,4 +55,8 @@ Map m = [1:'abc',2:'bcd'];
 // Map m5 = null
 // print m5.getClass()
 
-println m.toMapString()[0..10]
+// println m.toMapString()[0..10]
+
+int i =1,j=1;
+
+println i==j

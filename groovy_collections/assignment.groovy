@@ -124,3 +124,114 @@
 
 // Q14
 
+
+
+// (1..100).each{
+//     if(it%3==0 && it%5==0){
+//         print "FizzBuzz "
+//     }else if(it%5==0){
+//         print "Buzz " 
+//     }else if(it%3==0){
+//         print "Fizz "
+//     }else{
+//         print "${it} "
+//     }
+// }
+
+
+// Q15
+
+// class Stack{
+//     static List ls = [];
+
+//     public static pop(def x){
+//         ls.p
+//     }
+
+// }
+
+// Q16 , Q17
+
+// def m = [
+//     'Ammar' : 20,
+//     'Saif' : 21,
+//     'Ashish' : 21,
+//     'Prateek' : 20,
+//     'Rachit' : 22,
+//     'Yatarth' : 22,
+//     'Aadarsh' : 22,
+//     'Utkarsh' : 22,
+//     'Devang' : 20,
+//     'Sparsh' : 22,
+// ]
+
+// m.each{
+//     key,value -> println "${key} : ${value}"
+// }
+
+// m.collect{
+//     key,value -> println "${key} : ${value}"
+// }
+
+// m.eachWithIndex{
+//     key,value,index -> println "${key} : ${value}"
+// }
+
+// for(def i: m.keySet()){
+//     println "${i} : ${m[i]}"
+// }
+
+// Q18
+
+// def m1 = [1:'A',2:'B']
+// def m2 = [4:'C',3:'D']
+
+// def m3 = m1+m2
+// println m3
+
+// Q19
+
+// def m1 = [1:'A',2:'B']
+// println m1.class // won't work as class can be a map key
+// println m1.getClass()
+
+// Q20
+
+// Map m = ['1':2,'2':3,'3':4,'2':5]
+
+// Yes this is a valid construction , the m['2'] will be overwritten to
+// 5 as it is defined later on in the map.
+
+// Q21
+
+// Map m = ['1':2,'2':3,'3':4,'2':5]
+// println m.containsKey('1')
+
+// Q22
+
+// 22a => There are 3 departments (3 map keys)
+// 22b => The computing dept delievers 2 programs .
+// 22c => 200 students are enrolled in civil program
+
+// Q23
+
+// class Employee{
+//     def name,age,deptName,empNo,salary
+// }
+
+
+
+
+// Q24
+
+// def s = "https://www.google.com?name=johny&age=20&hobby=cricket"
+
+// def getvalues = {
+//     String x ->
+//     def l1 = (((x.tokenize("?")[1]).tokenize("&").tokenize("=")))
+//     l1.eachWithIndex{
+//         x,index -> if()
+//     }
+// }
+
+// println getvalues.call(s)
