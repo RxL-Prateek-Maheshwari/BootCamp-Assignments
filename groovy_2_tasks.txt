@@ -1,0 +1,21 @@
+// Read about these ->  
+
+1) Explore the underlining Data Structures of different collections.
+2) read more about max,min,closure -> done
+3) SpaceShip Operator(<=>) -> 
+    for a<=> b , return 1 if a>b , 0 if a=b and -1 if b>a
+4) spread operator (used a lot in previous versions but now , . and *. has the same functionality)
+5) equals and == :->
+    diff in groovy as compared to java , the == operator is used to see if two objects are the same
+    and equals is not there at all , we use is() in groovy which tells us if the objects are having the same refernce.
+6) groupby :->
+
+
+7) collect vs each  :-> collect creates new list, each does not
+
+
+
+=> TOkenizer vs split
+- tokenizer returns list , split returns string
+- tokenizer ignores empty list , split does not.
+- tokenizer cannot use regex as delimiter, split can.
