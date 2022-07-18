@@ -1,0 +1,49 @@
+#TASK 1 
+:- Creating Employee DB
+1. create employee(emp_id,employee_name,department_name,location,salary), 
+   department(dept_id,department_name),
+   locations (location_id, location_name) tables with relevant attributes.
+2. create primary key on each table and foreign keys (location->department, department->employee)
+ex: emp_id is PK in emp table, dept_id is PK in dept table, loc_id is PK in location table.
+3. insert 20 employees data, 4 departments data, 2 locations data.
+
+4. write below queries:
+a) display all employees names and their department names
+b) display all location_name, department_name, employee_name, salary for all matching rows from 3 tables
+a) select maximum salary earned from each department
+b) select 2nd highest salary from each department.
+c) select location_name, department_name, average_salary(of each location)
+
+additional queries:
+>> Show departments with no of employees
+>> Show locations with no of department where no of department is 2
+
+
+
+
+# TASK 2
+PS :- Creating Student DB
+Table 1 : Student_details_initials, enrollment date by default it should be current date
+Table 2 : Marks in percentage
+Table 3 : Subjects master table : All subjects
+Table 4 : Student_Sub : Link between subjects and students
+Tabe 5  : Student Address table. (Add Line 1,2, City, state,zip)
+ 
+Considerations: 
+1. Atleast 5 subjects not assigned to any students
+2. Every Student can choose max 5 subjects. Addition of more should not be allowed
+3. Each student can have only 2 marks/sub/year. Addition of more should not be allowed
+ 
+Questions: 
+1. Add 15 students
+2. Add marks for 2 years for 3 students, 3 years for 8 students , 4 year for 2 students and remaining 1 year
+3. Add Address for each student, each student is supposed to have mandatory address. Multiple address not allowed
+ 
+Write queries:
+1. Show student name, address, avg marks in each subject per year.
+2. Show students who have highest and second highest avg marks in year.
+3. Show students who have failed to achieve passing marks in each subject. (Yearly passing avg is 40%)
+4. Show students along with complete address in 1 column, show avg marks in latest year
+5. Find students living in Noida.
+6. Update address for 1 student to '65/5 Zone 1, New Delhi- 110092'
+7. For all the students who have zone in there address need to update zone to phase.Eg --> 65/5 Zone 1 will be 65/5 Phase 1.
